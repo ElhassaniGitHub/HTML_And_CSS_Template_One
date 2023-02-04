@@ -229,6 +229,7 @@ body {
 }
 .services .services-content {
   margin-top: var(--content-margin-top);
+  grid-gap: 30px;
 }
 .services .services-content .srv {
   display: flex;
@@ -273,9 +274,6 @@ body {
   width: 260px;
 }
 @media (max-width: 1199px) {
-  .services .services-content {
-    grid-gap: 25px;
-  }
   .image-column {
     display: none;
   }
